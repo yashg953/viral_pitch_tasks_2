@@ -1,0 +1,8 @@
+create a table
+front page screenshot and scrap its image
+check valid user or not if not make it red
+save image in a folder and give it path in table
+write logic if data is present 
+how to insert uninserted images
+link this code with slides api
+get cmp_name form url 
