@@ -92,7 +92,7 @@ function insert_details($base64_image,$cmp_name,$img_path,$user_status=0,$img_ty
     // Decode base64 data
     $image_data = base64_decode($base64_image);
 
-    // Create image resource from data
+    // Create image resource from data  
     $image = imagecreatefromstring($image_data);
 
     if ($image !== false) {
@@ -411,19 +411,19 @@ function addTextToSlide($accessToken, $presentationId, $slideObjectId,$a,$color,
                         'pageObjectId' => $slideObjectId,
                         'size' => [
                             'height' => [
-                                "magnitude"=> 1450,
+                                "magnitude"=> 25500,
                                 "unit"=> "EMU",
                             ],
                             'width' => [
-                                "magnitude"=> 5525,
+                                "magnitude"=> 10000,
                                 "unit"=> "EMU",
                             ],
                         ],
                         'transform'=> [
-                            'scaleX'=> 283.8914,
-                            'scaleY'=> 317,
-                            'translateX'=> 7516200.0100000007,
-                            'translateY'=> 65025,
+                            'scaleX'=> 347.1373,
+                            'scaleY'=> 350.52,
+                            'translateX'=> 147175,
+                            'translateY'=> 886699.3324999999,
                             'unit'=> "EMU"
                         ],
                 
